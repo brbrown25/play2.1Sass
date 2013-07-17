@@ -1,0 +1,22 @@
+@import "variables"; // Modify this for custom colors, font-sizes, etc
+@import "mixins";
+
+/* ==========================================================================
+   Bootstrap Framework
+   ========================================================================== */
+@import "third-party/bootstrap/bootstrap";
+
+/* ==========================================================================
+   Font-Awesome Icon-Font
+   ========================================================================== */
+@import "third-party/font-awesome/font-awesome";
+@import "third-party/font-awesome/font-awesome-ie7";
+
+#wrapper{
+   h1{
+      font-size: 2em;
+   }
+   p{
+      color:$grayDarker: ;
+   }
+}
