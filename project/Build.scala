@@ -18,6 +18,6 @@ object ApplicationBuild extends Build {
 
   val main = play.Project(appName, appVersion, appDependencies).settings(
     // Add your own project settings here      
-  ).settings( SassPlugin.sassOptions := Seq("--compass","-r", "compass","-g") )
+  ).settings( SassPlugin.sassSettings:_*).settings( SassPlugin.sassOptions := Seq("--compass","-r", "compass","-g") )
 
 }
